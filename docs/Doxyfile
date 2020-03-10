@@ -3,7 +3,7 @@
 #---------------------------------------------------------------------------
 # Project related configuration options
 #---------------------------------------------------------------------------
-PROJECT_NAME           = HOG
+PROJECT_NAME           = HOG2
 PROJECT_NUMBER         = 
 OUTPUT_DIRECTORY       = ./html/
 OUTPUT_LANGUAGE        = English
@@ -67,15 +67,23 @@ INPUT                  = ../absmapalgorithms \
 			 ../algorithms \
 			 ../apps/pathsample \
 			 ../environments \
+       ../envutil \
 			 ../generic \
 			 ../graph \
 			 ../graphalgorithms \
 			 ../gui \
+       ../learning \
 			 ../mapalgorithms \
+       ../search \
 			 ../shared \
 			 ../simulation \
-			 ../util \
-			 ../docs/hog.dox
+			 ../utils \
+			 ../docs/hog.dox \
+       ../apps/apps.dox \
+       ../structure.dox \
+       ../apps/README.md \
+       ../docs/README.md \
+       ../docs/tmp.md
 
 FILE_PATTERNS          = *.c \
                          *.cc \
@@ -114,7 +122,7 @@ FILE_PATTERNS          = *.c \
                          *.PHP \
                          *.PHP3 \
                          *.M \
-                         *.MM
+                         *.MM 
 RECURSIVE              = NO
 EXCLUDE                = 
 EXCLUDE_SYMLINKS       = NO
