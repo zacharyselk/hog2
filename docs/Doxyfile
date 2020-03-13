@@ -83,6 +83,7 @@ INPUT                  = ../absmapalgorithms \
        ../structure.dox \
        ../apps/README.md \
        ../docs/README.md \
+       ../docs/README \
        ../docs/tmp.md
 
 FILE_PATTERNS          = *.c \

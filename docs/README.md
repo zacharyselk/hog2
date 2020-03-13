@@ -5,4 +5,4 @@ Hello {#appsREADME}
 ## How to use
 
 Do things
- - See: [tmp](\ref tmp)
+ - See: [tmp](/docs/README.md)
